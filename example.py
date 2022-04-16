@@ -14,7 +14,7 @@ plik = 'wsp_inp.txt'
 # odczyt z pliku: https://docs.scipy.org/doc/numpy-1.15.1/reference/generated/numpy.genfromtxt.html
 tablica = np.genfromtxt(plik, delimiter=',', skip_header = 4)
 # zapis: https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.savetxt.html
-#np.savetxt("wsp_out.txt", tablica, delimiter=',', fmt = ['%10.2f', '%10.2f', '%10.3f'], header = 'konversja współrzednych geodezyjnych \\ damian wojda')
+#np.savetxt("wsp_out.txt", tablica, delimiter=',', fmt = ['%10.2f', '%10.2f', '%10.3f'], header = 'transformacja współrzednych geodezyjnych \\ damian wojda')
 
 
 tablica = np.genfromtxt(plik, delimiter=',', skip_header = 4)
